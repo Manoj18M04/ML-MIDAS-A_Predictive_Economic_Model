@@ -57,14 +57,14 @@ const Chat = () => {
           } `}
         >
           <div className="flex justify-between items-center px-4 py-2">
-            <p className="text-xl font-semibold text-[#F8EED5]">
-              backend pannanu
-            </p>
-            <FontAwesomeIcon
-              icon={faTimes}
-              className="text-[#F8EED5] text-lg cursor-pointer"
-              onClick={toggleProfile}
-            />
+            <p className="text-xl font-semibold text-[#F8EED5]"></p>
+            <div className="mt-4">
+              <FontAwesomeIcon
+                icon={faTimes}
+                className="text-[#F8EED5] text-lg cursor-pointer"
+                onClick={toggleProfile}
+              />
+            </div>
           </div>
         </div>
       </div>
